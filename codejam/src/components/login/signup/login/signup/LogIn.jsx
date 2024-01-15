@@ -5,20 +5,20 @@ export default function LogIn() {
   return (
     <div>
         <h1 className='heading'>LOGIN INTO ACCOUNT</h1>
-    <div class="container">
-        <div class="pt1">
+    <div className="container">
+        {/* <div className="pt1">
             
-        </div>
-        <div class="pt2">
-            <div class="row">
-                <input type="text" id="phone" placeholder="Phone Number"/>
+        </div> */}
+        <div className="pt2">
+            <div className="row">
+                <input type="email" id="email" placeholder="example@mail.com"/>
             </div>
-            <div class="row">
+            <div className="row">
                 <input type="password" id="password" placeholder="Password"/>
             </div>
             <button>LogIn</button>
-            <div class="row">
-                <span id="t1">New user?<Link to="/signup"> SignUp here!</Link></span>
+            <div className="row">
+                <span id="t1">New user?  <Link to="/signup"> SignUp here!</Link></span>
             </div>
         </div>
     </div>

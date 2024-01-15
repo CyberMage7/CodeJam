@@ -12,11 +12,13 @@ body
 
 .container
 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 10vh 10vw 8vh 10vw;
-    height: 70vh;
-    width: 80vw;
+  
+    /* grid-template-columns: 1fr 1fr; */
+
+    height: 80vh;
+    width: 30vw;
+margin: auto;
+margin-top: 5vmin;
     
 }
 .pt1
@@ -26,19 +28,21 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 70vh;
+    width: 80vw;
 }
 .pt2
 {
     background: rgba(193, 150, 207, 0.4);
     box-shadow: 0px 0px 10px 2px rgb(187, 101, 207);
-    padding: 5%;
+    padding: 1vmin;
 }
 
 .row{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #cb5aea;
+    background: #d188e4;
     border-radius: 30px;
     padding-left: 20px;
     margin-bottom: 25px;
@@ -59,20 +63,21 @@ button{
     padding: 4%;
     width: 100%;
     background: #b469cd;
-    color: #fff;
+    color: #000000;
     font-size: 16px;
     cursor: pointer;
     border-radius: 40px;
     margin: 0% 0% 2% 0%;
+    margin-bottom: 4vmin;
 }
 
 #t1
 {
     padding: 2%;
-    color:white;
+    color:rgb(0, 0, 0);
 }
 a{
-    color:white; 
+    color:rgb(0, 0, 0); 
     font-weight: bold;
 }
 

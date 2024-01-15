@@ -8,12 +8,15 @@ export default function SignUp() {
         <h2 className='heading'>REGISTRATION</h2>
     <form action="" method="post">
     <div className="container">
-        <div className="pt1">
+        {/* <div className="pt1">
             
-        </div>
+        </div> */}
         <div className="pt2">
             <div className="row">
                 <input type="text" id="name" name="uname" placeholder="Full Name"/>
+            </div>
+            <div className="row">
+                <input type='email' id='email' name='email' placeholder='exampe@gmail.com'/>
             </div>
             <div className="row">
                 <input type="text" id="phone" name="phone" placeholder="Phone Number"/>
@@ -25,8 +28,8 @@ export default function SignUp() {
                 <input type="password" id="password" name="pass" placeholder="Password"/>
             </div>
             <button type="submit">SignUp</button>
-            <div classNameName="row">
-                <span id="t1">Already a user?<Link to="/login"> Login here!</Link></span>
+            <div className="row">
+                <span id="t1">Already a user?  <Link to="/login"> Login here!</Link></span>
             </div>
         </div>
     </div>
