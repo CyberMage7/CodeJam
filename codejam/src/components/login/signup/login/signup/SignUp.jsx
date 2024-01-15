@@ -16,7 +16,7 @@ export default function SignUp() {
                 <input type="text" id="name" name="uname" placeholder="Full Name"/>
             </div>
             <div className="row">
-                <input type='email' id='email' name='email' placeholder='exampe@gmail.com'/>
+                <input type='email' id='email' name='email' placeholder='example@gmail.com'/>
             </div>
             <div className="row">
                 <input type="text" id="phone" name="phone" placeholder="Phone Number"/>
