@@ -1,19 +1,15 @@
-import "./App.css";
-import Home from "./components/Home";
-import About from "./components/About";
-import Work from "./components/Work";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-
+import React from 'react';
+import {Routes,Route} from 'react-router-dom';
+import SignUp from './components/login/signup/login/signup/SignUp';
+import LogIn from './components/login/signup/login/signup/LogIn';
+import LandingPage from './components/LandingPage';
 function App() {
   return (
-    <div className="App">
-      <Home />
-      <About />
-      <Work />
-      <Contact />
-      <Footer />
-    </div>
+    <Routes>
+      <Route path="/" element={<LandingPage/>}/>
+    <Route path='/signup' element={<SignUp/>}/>
+    <Route path='/login' element={<LogIn/>}/>
+    </Routes>
   );
 }
 
