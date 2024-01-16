@@ -8,8 +8,8 @@ import "./LandingPage.css";
 export default function LandingPage() {
   return (
     
-      <div className="App">
-        <Home />
+      <div className="App" id="app">
+      <Home />
       <About />
       <Work />
       <Contact />
