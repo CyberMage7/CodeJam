@@ -13,6 +13,7 @@ import ListItemText from "@mui/material/ListItemText";
 import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -38,9 +39,11 @@ const Navbar = () => {
         <img src={Logo} alt="" />
       </div>
       <div className="navbar-links-container">
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Contact</a>
+        <Link to="">Home</Link>
+        <Link to="#about">About</Link>
+        <Link to="">Contact</Link>
+        <Link to="/signup">Sign Up</Link>
+        <Link to="/login">Login</Link>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />

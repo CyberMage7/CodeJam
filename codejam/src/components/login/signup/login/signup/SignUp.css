@@ -2,7 +2,7 @@
     padding: 0px;
     margin: 0px;
 }
-body
+.bodysignup
 {
     background-image: url("assets/bg_music.webp");
     background-size: cover;
@@ -15,8 +15,8 @@ body
 
     height: 80vh;
     width: 30vw;
-margin: auto;
-margin-top: 5vmin;
+    margin: auto;
+   margin-top: 5vmin;
     
 }
 .pt1
@@ -82,5 +82,7 @@ a{
 .heading{
     color: #e7b6f4;
     font-size: 12vh;
+    text-align: center;
     margin-top: 5vmin;
+
 }
